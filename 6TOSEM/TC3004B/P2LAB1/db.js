@@ -6,7 +6,7 @@ const pool = new Pool({
     host: process.env.DB_HOST || 'localhost',
     user: process.env.DB_USER || 'postgres',
     password: process.env.DB_PASSWORD || 'Angela123!',
-    database: process.env.DB_NAME || 'peliculas',
+    database: process.env.DB_NAME || 'todolist',
     port: process.env.DB_PORT || 5432,
     max: 10, // máximo número de clientes en el pool
 });
